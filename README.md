@@ -98,8 +98,11 @@ Credits & Acknowledgments
 
 
 Image hosting & optimization: ImageKit.io
+
 Development: Built using vanilla HTML, CSS, and JavaScript
+
 Fonts: Instrument serif, Poppins. 
+
 Feel free to fork, modify, and use this template for personal or professional projects.
 
 Reflection
