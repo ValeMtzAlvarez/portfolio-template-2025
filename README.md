@@ -82,6 +82,7 @@ HTML
 <img width="1019" height="631" alt="Captura de Pantalla 2026-01-06 a la(s) 12 31 28" src="https://github.com/user-attachments/assets/5764b8bb-42ac-4339-badf-aa0172106047" />
 
 CSS
+
 <img width="458" height="579" alt="Captura de Pantalla 2026-01-06 a la(s) 12 32 00" src="https://github.com/user-attachments/assets/e10dca7b-ef88-400a-8913-c5c4704e6683" />
 
 
@@ -91,13 +92,18 @@ JavaScript
 
 
 The screenshots show what the HTML, CSS, and JavaScript code looks like, highlighting a clean and well-structured setup that allows users to easily customize the template according to their preferences, needs, and profession. 
+
+
 Credits & Acknowledgments
+
+
 Image hosting & optimization: ImageKit.io
 Development: Built using vanilla HTML, CSS, and JavaScript
 Fonts: Instrument serif, Poppins. 
 Feel free to fork, modify, and use this template for personal or professional projects.
 
 Reflection
+
 Overall, I am very proud of the website I designed and developed. The project challenged me on both a technical and creative level, and although I encountered several difficulties throughout the process, I am satisfied with the final outcome.
 Some of the biggest challenges I faced were related to more advanced interactions and motion, such as implementing parallax scrolling, working with scroll-based reveal animations, and exploring GSAP. While these aspects were particularly exciting to me at the beginning of the project, they also proved to be more complex than expected. Accessibility, was another area that required careful consideration and added complexity to the animation process.
 As the deadline approached, I made a conscious decision to prioritize stability and clarity within the code, and overall design quality over adding complex animations that might compromise the look of the website, as the idea is not to incorporate elements just for decoration’s sake. Further, the animations that are present are subtle and do not significantly impact usability, which is why I did not consider it necessary to implement a prefers-reduced-motion media query.
