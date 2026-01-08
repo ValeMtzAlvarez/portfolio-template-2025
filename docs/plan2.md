@@ -1,3 +1,5 @@
+The use of AI:
+
 As stated in the README file, Claude.AI was used to implement a typewriter-style animation for the homepage text:
 “Hey there, welcome to my digital diary.”
 
@@ -53,7 +55,7 @@ animation: none;
 After implementing this solution, an issue appeared: the typewriter animation was reading the HTML content literally, ignoring the <br> tag. As a result, the words “to” and “my” appeared together as “tomy”, instead of being displayed correctly as “to my”.
 To address this problem, I explained the issue to Claude.AI with the following prompt:
 “The text ‘hey there, welcome to my digital diary’ reads as ‘tomy’, which is incorrect. It should read ‘to my’.
-Based on this clarification, Claude.AI provided an improved version of the JavaScript code that correctly handles line breaks by converting <br> tags into newline characters and re-inserting them during the animation:
+Based on this clarification, Claude.AI provided an improved version of the JavaScript code that correctly handles line breaks by converting "<br>" tags into newline characters and re-inserting them during the animation:
 
 // =========================
 // TYPEWRITER EFFECT
