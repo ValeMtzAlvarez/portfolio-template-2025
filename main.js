@@ -93,6 +93,14 @@ dots.forEach((dot, i) => {
 // DARK MODE TOGGLE
 // =========================
 const toggleButton = document.getElementById("theme-toggle");
+
+// Set initial emoji based on current mode
+if (document.body.classList.contains("dark-mode")) {
+  toggleButton.textContent = "☀️";
+} else {
+  toggleButton.textContent = "🌚";
+}
+
 toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   if (document.body.classList.contains("dark-mode")) {
