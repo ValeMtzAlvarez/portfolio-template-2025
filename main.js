@@ -28,7 +28,7 @@ function typeWriter() {
       heroTitle.appendChild(document.createTextNode(char));
     }
     charIndex++;
-    // Velocidad de escritura (ajusta el valor en milisegundos)
+    // Velocidad de escritura (valor en milisegundos)
     setTimeout(typeWriter, 80);
   }
 }
