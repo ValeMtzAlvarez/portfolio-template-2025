@@ -1,8 +1,11 @@
 As stated in the README file, Claude.AI was used to implement a typewriter-style animation for the homepage text:
 “Hey there, welcome to my digital diary.”
+
 I provided Claude.AI with the existing HTML structure and the JavaScript code I had written up to that point. The prompt used was:
+
 “I have this HTML code (code pasted) and this JavaScript (code pasted). I want the section that reads ‘Hey there, welcome to my digital diary’ to have an animation that looks like a typewriter, as if the text is being written. Please provide the necessary code for this.”
 Claude.AI responded with the following JavaScript code:
+
 // =========================
 // TYPEWRITER EFFECT
 // =========================
@@ -46,10 +49,12 @@ border-color: currentColor;
 border-right: none;
 animation: none;
 }
+
 After implementing this solution, an issue appeared: the typewriter animation was reading the HTML content literally, ignoring the <br> tag. As a result, the words “to” and “my” appeared together as “tomy”, instead of being displayed correctly as “to my”.
 To address this problem, I explained the issue to Claude.AI with the following prompt:
 “The text ‘hey there, welcome to my digital diary’ reads as ‘tomy’, which is incorrect. It should read ‘to my’.
 Based on this clarification, Claude.AI provided an improved version of the JavaScript code that correctly handles line breaks by converting <br> tags into newline characters and re-inserting them during the animation:
+
 // =========================
 // TYPEWRITER EFFECT
 // =========================
@@ -80,4 +85,5 @@ const char = text.charAt(charIndex);
 
 }
 }
+
 This final solution resolved the spacing issue and ensured the text animation behaved as intended while preserving the original HTML structure.
