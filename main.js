@@ -98,7 +98,7 @@ toggleButton.addEventListener("click", () => {
   if (document.body.classList.contains("dark-mode")) {
     toggleButton.textContent = "☀️";
   } else {
-    toggleButton.textContent = "🌙";
+    toggleButton.textContent = "🌚";
   }
 });
 
